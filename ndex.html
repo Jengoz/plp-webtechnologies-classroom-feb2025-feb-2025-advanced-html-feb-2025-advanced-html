@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: aqua;">Week 2 Assignment</h1>
+
+        <h2>Lists</h2>
+          <h3>Ordered List</h3>
+        <ol>
+            <li>Jengo</li>
+            <li>Meg</li>
+            <li>Moses</li>
+            <li>Omondi</li>
+            <li>Natalie</li>
+
+        </ol>
+
+    <h3>Unordered List</h3>
+        <ul>
+            <li>Santorini</li>
+            <li>Sossusvlei</li>
+            <li>The Norwejian Fjords</li>
+            <li>Grand Canyon</li>
+            <li>The Swiss Alps</li>
+            <li>Victoria Falls</li>
+            <li>Great Barrier Reef</li>
+
+        </ul>
+        
+        
+
+
+        
+        <h2>Multimedia</h2>
+        <p>Here is an embedded audio file:</p>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1691454933&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/izo-pro-official" title="Izo Pro Official" target="_blank" style="color: #cccccc; text-decoration: none;">Izo Pro Official</a> · 
+            <a href="https://soundcloud.com/izo-pro-official/sky-high-instrumental-mastered" title="SKY HIGH INSTRUMENTAL (MASTERED).mp3" target="_blank" style="color: #cccccc; text-decoration: none;">SKY HIGH INSTRUMENTAL (MASTERED).mp3</a>
+        </div>
+        
+        <p>Here is an embedded video:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9dz3yhfZFzk?si=MbclxQTXe7gUCgPQ&amp;start=28" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+
+        <h2>Image Embedding</h2>
+        <img src="https://images.pexels.com/photos/4456244/pexels-photo-4456244.jpeg" alt="Sample Image">
+        
+        <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Choose a course</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="medicine">Medicine</option>
+            <option value="engineering">Engineering</option>
+            <option value="business">Business</option>
+        </select><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+        
+    <h2>Contacts Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St</td>
+            <td>+1234567890</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Elm St</td>
+            <td>+9876543210</td>
+            <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>Michael Brown</td>
+            <td>789 Oak St</td>
+            <td>+1122334455</td>
+            <td>michaelbrown@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily White</td>
+            <td>159 Pine St</td>
+            <td>+5544332211</td>
+            <td>emilywhite@example.com</td>
+        </tr>
+        <tr>
+            <td>Chris Green</td>
+            <td>753 Maple St</td>
+            <td>+6677889900</td>
+            <td>chrisgreen@example.com</td>
+        </tr>
+    </table>
+        
+    
+    </div>
+</body>
+</html>
